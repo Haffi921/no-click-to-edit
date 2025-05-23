@@ -1,6 +1,6 @@
 # No Click to Edit
 
-> **Note:** 🛡️ This extension is designed to prevent accidental edits, but it's not perfect. If you find something that's unexpectedly unclickable, just hold <kbd>CTRL</kbd> (Windows/Linux) or <kbd>⌘</kbd> (Mac) while clicking to bypass it. This is both the intended way to edit and your escape hatch! See [How to report imprecision?](#how-to-report-imprecision) if you find issues.
+> **Note:** 🛡️ This extension is designed to prevent accidental edits, but it's not perfect. If you find something that's unexpectedly unclickable, just hold <kbd>CTRL</kbd> (Windows/Linux) or <kbd>⌘</kbd> (Mac) while clicking to bypass it. This is both the intended way to edit and your escape hatch! See [How to report imprecision?](#how-to-report-imprecision-) if you find issues.
 
 ![No Click To Edit logo](./screenshots/NoClickToEdit.png)
 
@@ -23,7 +23,7 @@ No more accidental edits—only intentional ones, exactly when you want them.
 
 This is not just the intended way to enter **Edit Mode**, but also your escape hatch! 🏃‍♂️
 
-If you find something that's unexpectedly unclickable, try using `Ctrl/Cmd+Click` to bypass the extension. This is especially useful since Atlassian's products are complex and ever-changing, and our detection algorithm might not catch every edge case. See [How to report imprecision?](#how-to-report-imprecision) for more details.
+If you find something that's unexpectedly unclickable, try using `Ctrl/Cmd+Click` to bypass the extension. This is especially useful since Atlassian's products are complex and ever-changing, and our detection algorithm might not catch every edge case. See [How to report imprecision?](#how-to-report-imprecision-) for more details.
 
 ## What is this?
 
