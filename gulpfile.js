@@ -4,8 +4,16 @@ import { deleteSync } from 'del';
 import packageJson from './package.json' with { type: 'json' };
 
 gulp.task('zip', () => {
+  const files = [
+    'icons/**/*',
+    'screenshots/**/*',
+    'manifest.json',
+    'no-click-to-edit.js',
+    'LICENSE',
+    'README.md'
+  ];
   return gulp
-    .src(['manifest.json', 'no-click-to-edit.js', 'icons/*', 'screenshots/*', 'LICENSE', 'README.md'])
+    .src(files, { base: './' })
     .pipe(zip(`no-click-to-edit-${packageJson.version}.zip`))
     .pipe(gulp.dest('dist'));
 });
