@@ -1,0 +1,33 @@
+{
+  "name": "no-click-to-edit",
+  "version": "1.0.1",
+  "author": "Hafsteinn Ragnarsson",
+  "scripts": {
+    "zip": "gulp zip",
+    "clean": "gulp clean",
+    "build": "npm run clean && npm run zip"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Haffi921/no-click-to-edit.git"
+  },
+  "main": "no-click-to-edit.js",
+  "bugs": {
+    "url": "https://github.com/Haffi921/no-click-to-edit/issues"
+  },
+  "description": "Disable click to edit on Atlassian products - Jira, Confluence, etc. - 10x the user experience",
+  "homepage": "https://github.com/Haffi921/no-click-to-edit#readme",
+  "keywords": [
+    "Atlassian",
+    "Jira",
+    "Confluence",
+    "Productivity"
+  ],
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "del": "^8.0.0",
+    "gulp": "^5.0.0",
+    "gulp-zip": "^6.1.0"
+  }
+}
