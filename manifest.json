@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "No Click to Edit",
-  "version": "1.0",
+  "version": "1.0.1",
   "description": "Disable click to edit on Atlassian products - Jira, Confluence, etc. - 10x the user experience",
   "author": "Hafsteinn Ragnarsson",
   "homepage_url": "https://github.com/haffi921/no-click-to-edit",

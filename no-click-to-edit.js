@@ -16,7 +16,7 @@ function isAllowedElement(target) {
   // Check for Atlastian input elements
   if (target.tagName === 'DIV') {
     const role = target.getAttribute('role');
-    const allowedRoles = ['listbox', 'option', 'menu', 'menuitem', 'button', 'group'];
+    const allowedRoles = ['listbox', 'option', 'menu', 'menuitem', 'button', 'group', 'radiogroup', 'radio'];
     if (allowedRoles.includes(role)) {
       return true;
     }
@@ -70,7 +70,7 @@ function stopClickToEdit(event) {
 
   for (let target = event.target; target !== document; target = target.parentNode) {
     // Check for Click-To-Edit triggers
-    if (willTriggerClickToEdit(target)) {
+    if (willTriggerClickToEdit(target) && !isAllowedElement(target.parentNode)) {
       console.log('No-Click-To-Edit: Click intercepted. Hold Ctrl/Cmd to edit.');
       event.preventDefault();
       event.stopPropagation();
